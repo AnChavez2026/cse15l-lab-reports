@@ -4,4 +4,4 @@
 1. Installing Visual Studio code. 
 Click this link to take you to the download page below [Link](https://code.visualstudio.com/download)
 The page should look soomething like this.
-![Image](imageName.png)
+![Image](VSC step 1.png)
