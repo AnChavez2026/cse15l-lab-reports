@@ -5,17 +5,22 @@
 
 * Click this link to take you to the download page below [Link](https://code.visualstudio.com/download)
   * The page should look soomething like this:
+  
 ![Image](VSC step 1.png)
 
 * Next, Click on your respective download. For these instruction I will demonstrate downloading Visual Studio code on windows.
 Once clicked a new page will apear showing the download on the bottom left like below:
+
 ![Image](VSC step 2.png)
 
 * Click the download when completed and a new window will apear:
+
 ![Image](VSC step 3.png)
+
 * Click agree>next>next>install
 
 * Finally, Visual Studio Code will be open and succefully installed (it might have different colors, or a different menu bar, depending on your system and settings):
+
 ![Image](VSC step 4.png)
 
 
@@ -26,7 +31,9 @@ Once clicked a new page will apear showing the download on the bottom left like 
 
 * Once finished go back to Visual studio Code and open the terminal. (Ctrl or Command + `, or use the Terminal → New Terminal menu option)
   * Make sure your teminal is in bash mode as shown below:
+ 
 ![Image](VSC step 5.png)
+
 * In the terminal, type the command: 
 
     ```
@@ -70,7 +77,9 @@ $ cp //copies a file or directory
 $ cat //displays what's in the file
 ```
 Examples:
+
     ![Image](VSC step 7.png)
+    
 * In this examples I use "PWD" to print the current path im in. Then "ls" to see a list of directories, in this case it was only per15. "cd per15" is used to change my directory to per15. Lastly, "ls" is used to see that my path has changed.
 
 * Note: If you dont remotely connect to another server, using these commands will access you personal computer files as shown below
