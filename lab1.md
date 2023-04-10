@@ -52,5 +52,27 @@ Once clicked a new page will apear showing the download on the bottom left like 
    - Prepping cs15lsp23
    ```
     * Your terminal is not connected to a remote server!
-    ![Image](VSC step 5.png)
+    ![Image](VSC step 6.png)
+    
 
+**Step 3: Trying Some Commands**
+ 
+After remotely connecting to the server you can now run commands to access files on the remote computer.
+
+```
+//Here are some commands to try:
+$ pwd //prints path to home directory
+$ cd //changes directory
+$ cd.. //goes back on directory
+$ ls //lists what's inside the directory
+$ ls -at //lists file names in directory
+$ ls -lat //lists of files in directory in most recent order
+$ cp //copies a file or directory
+$ cat //displays what's in the file
+```
+Examples:
+    ![Image](VSC step 7.png)
+* In this examples I use "PWD" to print the current path im in. Then "ls" to see a list of directories, in this case it was only per15. "cd per15" is used to change my directory to per15. Lastly, "ls" is used to see that my path has changed.
+
+* Note: If you dont remotely connect to another server, using these commands will access you personal computer files as shown below
+ ![Image](VSC step 8.png)
