@@ -20,9 +20,8 @@ Once clicked a new page will apear showing the download on the bottom left like 
 
 
 **Step 2: Remotely Connecting**
-* if you on windows you will need to instal git for windows. Got to the lik below and follow the instruction.
- 
-[Git For Windows](https://gitforwindows.org/)
+* if you on windows you will need to instal git for windows. Got to the lik below and follow the instruction. [Git For Windows](https://gitforwindows.org/)
+
 ![Image](Git.png)
 
 * Once finished go back to Visual studio Code and open the terminal. (Ctrl or Command + `, or use the Terminal → New Terminal menu option)
@@ -35,7 +34,7 @@ Once clicked a new page will apear showing the download on the bottom left like 
     ```
     * (Make sure to replace the "zz" with your own course specific acount.)
 * This will most likely be your first time connecting to this server so you will see a message similar to this. If so, when asked if you would like to continue, enet yes
-* 
+
     ```
     The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
     
