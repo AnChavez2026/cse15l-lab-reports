@@ -51,6 +51,7 @@ Once clicked a new page will apear showing the download on the bottom left like 
     * if you get this message when you’re connecting to a server you connect to often, it could mean someone is trying to listen in on or control the connection. 
 
 * After answering yes, a prompt will apear asking for a password. Enter your password for this specific acount to log in.
+    * If you havent already, make sure to reset you password here: [Link](https://sdacs.ucsd.edu/~icc/index.php).
     * It will not show the password even when typing as a secuirty measure, but rest asured its still being typed.
     * After entering your password, information on your last login will apear aswell as the percantage CPU you are using on the system. The last line should read:
     
