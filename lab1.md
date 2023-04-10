@@ -1,10 +1,10 @@
 # Lab Report 1
 **how to log into a course-specific account on ieng6**
 
-**1. Installing Visual Studio code. **
+**Step 1: Installing Visual Studio code. **
 
 * Click this link to take you to the download page below [Link](https://code.visualstudio.com/download)
-The page should look soomething like this:
+  * The page should look soomething like this:
 ![Image](VSC step 1.png)
 
 * Next, Click on your respective download. For these instruction I will demonstrate downloading Visual Studio code on windows.
@@ -15,8 +15,42 @@ Once clicked a new page will apear showing the download on the bottom left like 
 ![Image](VSC step 3.png)
 * Click agree>next>next>install
 
-* Finally, Visual Studio Code will be open and succefully installed:
+* Finally, Visual Studio Code will be open and succefully installed (it might have different colors, or a different menu bar, depending on your system and settings):
 ![Image](VSC step 4.png)
 
 
-**2. Remotely Connecting**
+**Step 2: Remotely Connecting**
+* if you on windows you will need to instal git for windows. Got to the lik below and follow the instruction.
+ 
+[Git For Windows](https://gitforwindows.org/)
+![Image](Git.png)
+
+* Once finished go back to Visual studio Code and open the terminal. (Ctrl or Command + `, or use the Terminal → New Terminal menu option)
+  * Make sure your teminal is in bash mode as shown below:
+![Image](VSC step 5.png)
+* In the terminal, type the command: 
+
+    ```
+    $ ssh cs15lsp23zz@ieng6.ucsd.edu
+    ```
+    * (Make sure to replace the "zz" with your own course specific acount.)
+* This will most likely be your first time connecting to this server so you will see a message similar to this. If so, when asked if you would like to continue, enet yes
+* 
+    ```
+    The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
+    
+    Are you sure you want to continue connecting (yes/no/[fingerprint])?
+    ```
+    
+    * if you get this message when you’re connecting to a server you connect to often, it could mean someone is trying to listen in on or control the connection. 
+
+* After answering yes, a prompt will apear asking for a password. Enter your password for this specific acount to log in.
+    * It will not show the password even when typing as a secuirty measure, but rest asured its still being typed.
+    * After entering your password, information on your last login will apear aswell as the percantage CPU you are using on the system. The last line should read:
+    
+   ```
+   - Prepping cs15lsp23
+   ```
+    * Your terminal is not connected to a remote server!
+    ![Image](VSC step 5.png)
+
