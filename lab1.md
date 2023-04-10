@@ -50,8 +50,8 @@ Once clicked a new page will apear showing the download on the bottom left like 
    ```
    - Prepping cs15lsp23
    ```
-    * Your terminal is not connected to a remote server!
-    ![Image](VSC step 6.png)
+* Your terminal is now connected to a remote server!
+![Image](VSC step 6.png)
     
 
 **Step 3: Trying Some Commands**
