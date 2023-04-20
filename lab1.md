@@ -1,14 +1,14 @@
 # Lab Report 1
-**how to log into a course-specific account on ieng6**
+**How to log into a course-specific account on ieng6**
 
-**Step 1: Installing Visual Studio code. **
+**Step 1: Installing Visual Studio code.**
 
 * Click this link to take you to the download page below [Link](https://code.visualstudio.com/download)
   * The page should look soomething like this:
   
 ![Image](VSC step 1.png)
 
-* Next, Click on your respective download. For these instruction I will demonstrate downloading Visual Studio code on windows.
+* Next, Click on your respective download. For these instruction I will demonstrate downloading Visual Studio code on Windows.
 Once clicked a new page will apear showing the download on the bottom left like below:
 
 ![Image](VSC step 2.png)
@@ -23,9 +23,18 @@ Once clicked a new page will apear showing the download on the bottom left like 
 
 ![Image](VSC step 4.png)
 
+**Step 2: Password Change of course-specific account**
 
-**Step 2: Remotely Connecting**
-* if you on windows you will need to instal git for windows. Got to the lik below and follow the instruction. [Git For Windows](https://gitforwindows.org/)
+It's very important to use the right account and password for this course, 
+although already provided with an account you must change the password for the account to work
+
+* First step is to go the website: [Link](https://sdacs.ucsd.edu/~icc/index.php).
+* Type in your username and PID.
+* Select your 15L account and then change your passcode.
+
+
+**Step 3: Remotely Connecting**
+* if you on Windows you will need to instal git for Windows. Got to the link below and follow the instruction. [Git For Windows](https://gitforwindows.org/)
 
 ![Image](Git.png)
 
@@ -62,24 +71,24 @@ Once clicked a new page will apear showing the download on the bottom left like 
 ![Image](VSC step 6.png)
     
 
-**Step 3: Trying Some Commands**
+**Step 4: Trying Some Commands**
  
 After remotely connecting to the server you can now run commands to access files on the remote computer.
 
 ```
 //Here are some commands to try:
-$ pwd //prints path to home directory
-$ cd //changes directory
-$ cd.. //goes back on directory
-$ ls //lists what's inside the directory
-$ ls -at //lists file names in directory
-$ ls -lat //lists of files in directory in most recent order
-$ cp //copies a file or directory
-$ cat //displays what's in the file
+ pwd //prints path to home directory
+ cd //changes directory
+ cd.. //goes back on directory
+ ls //lists what's inside the directory
+ ls -at //lists file names in directory
+ ls -lat //lists of files in directory in most recent order
+ cp //copies a file or directory
+ cat //displays what's in the file
 ```
 Examples:
 
-    ![Image](VSC step 7.png)
+   ![Image](VSC step 7.png)
     
 * In this examples I use "PWD" to print the current path im in. Then "ls" to see a list of directories, in this case it was only per15. "cd per15" is used to change my directory to per15. Lastly, "ls" is used to see that my path has changed.
 
