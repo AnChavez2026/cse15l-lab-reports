@@ -48,7 +48,7 @@ although already provided with an account you must change the password for the a
     ```
     $ ssh cs15lsp23zz@ieng6.ucsd.edu
     ```
-    * (Make sure to replace the "zz" with your own course specific acount.)
+    * (Make sure to replace the "zz" with your own course specific acount found in the previous step)
 * This will most likely be your first time connecting to this server so you will see a message similar to this. If so, when asked if you would like to continue, enet yes
 
     ```
@@ -60,7 +60,6 @@ although already provided with an account you must change the password for the a
     * if you get this message when you’re connecting to a server you connect to often, it could mean someone is trying to listen in on or control the connection. 
 
 * After answering yes, a prompt will apear asking for a password. Enter your password for this specific acount to log in.
-    * If you havent already, make sure to reset you password here: [Link](https://sdacs.ucsd.edu/~icc/index.php).
     * It will not show the password even when typing as a secuirty measure, but rest asured its still being typed.
     * After entering your password, information on your last login will apear aswell as the percantage CPU you are using on the system. The last line should read:
     
