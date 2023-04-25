@@ -135,3 +135,4 @@ class StringServer {
   ```
 The buggy code was unable to reverse the last half of the list correcly becasue the for loop swaps the first half of the list and when trying to swap the second half the value have already been swapped, duplicaing them. The fix code fixes this problem by creating a duplicated list allowing for all the valaue to be reversed succesfully without affecting the original list. After, the values of the duplicated list is them copied over to the orignal list to be returned
 ## Part 3
+Something new I learned was creating and working with my own server in lab 2. I learned that parts of the URL for my server and how to use it to make certian functions/methods wok. I enjoyed figuring our how to do part 1 of this lab using the URLs query. In lab 3, I learning how to use JUnit on vscode was interesting, as well as learning how to properly go about to fixing a bugs in code.
