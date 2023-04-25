@@ -54,7 +54,7 @@ class StringServer {
 ```
 **Running the server**
 ![Image](lab 2, 1.png)
-*
+
 **Using the link**
 ![Image](lab 2, 2.png)
 * Methods called: *handleRequest*
@@ -65,7 +65,7 @@ class StringServer {
 3. There is field *s* which is an array that holds part of the Query of the URL in idnex 0 and anything after the "=" to be stored as index 1. In this case, index 1 would be "hello"
 * The index 1 of *s* which holds the text, in this case it would be "hello", gets *added* to the ArrayList of *message*. 
 * Index 0 of *message* gets concatenated in *writing*, the value of *writing* is now "hello" and is then outputted to the site.
-* 
+
 ![Image](lab 2, 3.png)
 * Methods called: *handleRequest*
 * Relevant arguments: *url*
