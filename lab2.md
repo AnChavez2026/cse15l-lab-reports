@@ -52,6 +52,25 @@ class StringServer {
 
 
 ```
+**Running the server
+![Image](lab 2, 1.png)
+
+**Using the link
+![Image](lab 2, 2.png)
+* Methods called: *handleRequest*
+* Relevant arguments: *url*
+* Values of relevant fields:
+1. There is a field *s* whose value is an empty string.
+2. There is field *parameters* which is a string of arrays and holds parts of the url after I split it.
+* The value of *s* changes to hold the words we enter in which is "Hello" in this case.
+* 
+![Image](lab 2, 3.png)
+* Methods called: *handleRequest*
+* Relevant arguments: *url*
+* Values of relevant fields:
+1. There is a field *s* whose value is an empty string.
+2. There is field *parameters* which is a string of arrays and holds parts of the url after I split it.
+* The value of *s* changes to hold the words we enter in which is "Hello" and "How are you" in this case.
 
 ## Part 2
 
