@@ -52,10 +52,10 @@ class StringServer {
 
 
 ```
-**Running the server
+**Running the server**
 ![Image](lab 2, 1.png)
 
-**Using the link
+**Using the link**
 ![Image](lab 2, 2.png)
 * Methods called: *handleRequest*
 * Relevant arguments: *url*
