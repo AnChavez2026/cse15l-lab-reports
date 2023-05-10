@@ -43,7 +43,7 @@ Source: [Link](https://phoenixnap.com/kb/less-command-in-linux)
 
 When you run the "less -n" command followed by a filename, the "less" pager displays the contents of the file with line numbers added to the left-hand side of the display. This can be useful for keeping track of the current line number, referencing specific lines within the file, or when discussing the contents of the file with others.
 
-**Example 2**
+**Example 1**
 
 Input: 
 
@@ -58,5 +58,42 @@ Output:
 
 Explanation: In this example the "less" command was paired with "-N" displaing the file "journal.pbio.0020010.txt" with a number on each line on the left hand side.
 
+**Example 2**
 
+Input:
+
+```
+  Owner@DESKTOP-6K3UDBD MINGW64 ~/stringsearch/stringsearch-data/technical (main)
+  $ less -N  plos/journal.pbio.0020001.txt
+```
+
+Output:
+
+![Image](lab 3, 4.png)
+
+Explanation: In this example the "less" command was paired with "-N" displaying the file "journal.pbio.0020001.txt" with a number on each line on the left hand side. Since the file is big we can scoll down viewing more by pressing the down arrow.
+
+Source:[Link]([https://phoenixnap.com/kb/less-command-in-linux](https://linuxize.com/post/less-command-in-linux/#:~:text=If%20you%20want%20less%20to%20shows%20line%20numbers%20launch%20the%20program%20with%20the%20%2DN%20option%3A))
+
+##```less -X [Filename]```
+
+Usually, when running the less command on a file after you done viewing its contents you press "q" to go back to writing on the terminal. After doing this, the contents of the file will be deleted from the terminal, but by using "-X" all the line that you have viewed will still be viewable on the terminal even after pressing "q". This is usefull when you know your probably going to have to run the same less command mutiple time, to save time it will leave the file printed in the terminal.
+
+**Example 1**
+
+Input:
+
+```
+Owner@DESKTOP-6K3UDBD MINGW64 ~/stringsearch/stringsearch-data/technical (main)
+$ less -X  plos/journal.pbio.0020001.txt
+```
+Output:
+
+![Image](lab 3, 5.png)
+
+Explanation: In this example, the contents of the file are still viewable in the terminal even after pressing "q" to exit the "less" viewing window.
+
+**Example 2**
+
+```
 
