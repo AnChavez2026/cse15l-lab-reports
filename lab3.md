@@ -37,7 +37,7 @@ Output:
 
 Explanation: In this example the "less" command was paired with -p allowing the string "JSTOR" to be highlighted in the txt file of "journal.pbio.0020010.txt" in the terminal.
 
-Source: [Link](https://phoenixnap.com/kb/less-command-in-linux)
+Source: [phoenixnap.com](https://phoenixnap.com/kb/less-command-in-linux)
 
 ##``` less -N [FILENAME]```
 
@@ -73,7 +73,7 @@ Output:
 
 Explanation: In this example the "less" command was paired with "-N" displaying the file "journal.pbio.0020001.txt" with a number on each line on the left hand side. Since the file is big we can scoll down viewing more by pressing the down arrow.
 
-Source:[Link]([https://phoenixnap.com/kb/less-command-in-linux](https://linuxize.com/post/less-command-in-linux/#:~:text=If%20you%20want%20less%20to%20shows%20line%20numbers%20launch%20the%20program%20with%20the%20%2DN%20option%3A))
+Source:[linuxize.com](https://linuxize.com/post/less-command-in-linux/#:~:text=If%20you%20want%20less%20to%20shows%20line%20numbers%20launch%20the%20program%20with%20the%20%2DN%20option%3A)
 
 ##```less -X [Filename]```
 
@@ -95,5 +95,52 @@ Explanation: In this example, the contents of the file are still viewable in the
 
 **Example 2**
 
+Input:
+
+```
+  Owner@DESKTOP-6K3UDBD MINGW64 ~/stringsearch/stringsearch-data/technical (main)
+  $ less -X  plos/journal.pbio.0020064.txt
 ```
 
+Output:
+
+![Image](lab 3, 6.png)
+
+Explanation: In this example, the contents of the file are still viewable in the terminal even after pressing "q" to exit the "less" viewing window.
+
+Source:[linuxize.com](https://linuxize.com/post/less-command-in-linux/#:~:text=%2DX%20option%3A-,less%20%2DX%20filename,-Copy)
+
+
+##```less - s [Filename]```
+
+The option "-s" in the "less" command instructs the terminal to condense multiple consecutive blank lines into a single line, resulting in a more concise and readable output. This feature is especially helpful when working with lengthy files or command output that has a lot of empty lines.
+
+**Example 1**
+
+Input:
+
+``` 
+  Owner@DESKTOP-6K3UDBD MINGW64 ~/stringsearch/stringsearch-data/technical (main)
+  $ less -s  biomed/1468-6708-3-4.txt
+```
+
+Output:
+
+![Image](lab 3, 7.png)
+
+Explanation: In this example, the text above is the original text and the bottom one is the output. The original text has 5 spaces between the two paragraphs, however when the command ran it condesed the spaces making them fewer allowing for an easier viewing experiance
+
+**Example 2**
+
+```
+  Owner@DESKTOP-6K3UDBD MINGW64 ~/stringsearch/stringsearch-data/technical (main)
+  $ less -s government/Env_Prot_Agen/ctf1-6.txt
+````
+
+Output:
+
+![Image](lab 3, 7.png)
+
+Explanation: In this example, the text above is the original text and the bottom one is the output. The original text has 5 spaces between the two paragraphs, however when the command ran it condesed the spaces making them fewer allowing for an easier viewing experiance
+
+Source: [phoenixnap.com](https://phoenixnap.com/kb/less-command-in-linux#:~:text=the%20terminal%20bell.-,%2Ds,-Merges%20consecutive%20blank)
