@@ -23,6 +23,7 @@ STEP 2: Clone repository from GitHub account
 > Before I cloned my repository I first forked it by goint to this link `https://github.com/ucsd-cse15l-s23/lab7` and clicking the fork option on the top right
 > 
 > ![Image](lab 4, 2.png)
+> 
 > Then I cliked the green "code" button to reveal my ssh key that we will later need.
 > 
 > ![Image](lab 4, 3.png)
@@ -64,7 +65,9 @@ STEP 4: Fix the code in the file
 > ![Image](lab 4, 8.png)
 > 
 > Once done with editing you can see that I am still in insert mode on the bottom left of the image. In order to save and quit i must first exit by cliing the esc key.
+> 
 > `<esc> :wq` 
+> 
 > This should bring you back to the terminal
 
 
@@ -81,9 +84,13 @@ STEP 5: Run the tests, demonstrating that they succeed
 STEP 6: Commit and push the resulting change to your Github account
 ---
 > I use git add on List Examples and then commit and push to my repository
+> 
 > `git add ListExamples.java` adds to the current commit
-> `git commit -m "update"`  saves ghe changes
+> 
+> `git commit -m "update"`  saves The changes
+> 
 > `git push origin main`  uploads the save to the main repository on github
+> 
 > 
 > ![Image](lab 4, 10.png)
 > 
