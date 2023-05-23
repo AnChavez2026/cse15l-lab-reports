@@ -75,6 +75,7 @@ STEP 5: Run the tests, demonstrating that they succeed
 > Which shows that it does pass:
 > 
 > ![Image](lab 4, 9.png)
+> 
 
 
 STEP 6: Commit and push the resulting change to your Github account
@@ -85,5 +86,5 @@ STEP 6: Commit and push the resulting change to your Github account
 > `git push origin main`  uploads the save to the main repository on github
 > 
 > ![Image](lab 4, 10.png)
-> a
+> 
 > And now im done!
