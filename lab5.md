@@ -1,5 +1,5 @@
 # Lab 5
-## theoretical EdStem Post by a student
+## Theoretical EdStem Post by a student
 
 ## What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?
 Computer: Asus g14, operating system: Windows 11, web browser: Google chrome, terminal/editor: Visual Studio Code
@@ -18,7 +18,7 @@ My current working dirctory is ~/OneDrive/Documents/GitHub/list-examples-grader 
 # TA/Staff Response:
 Hi Angel,
 
-Many students are having this same issue with running J unit. I can see from you screenshots the the lib folder is in the grading area so this code should theoreticaly be working. You mentioned that your partner successfully ran the program, what kind of laptop does he have? When trying to compile J unit, macbooks and windows laptop need to have different code to compile j unit. For Example, assuming your friend has a macbook, in line 32 ``` .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ``` should be able to run just fine, however Laptops running window should run ```.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar``` instead. The same goes for line 33, macbooks should be able to run ``` .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar```, but for windows it should be replaced with ```".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar"```. The differce being the colon and the semi colon being switched. For more information about runnning j unit please reffer back to lab week 3 [link]([http://a.com](https://ucsd-cse15l-s23.github.io/week/week3/#:~:text=you%20run%20them%3A-,MAC%20USERS,-%3A)). 
+Many students are having this same issue with running J unit. I can see from you screenshots the the lib folder is in the grading area so this code should theoretically be working. You mentioned that your partner successfully ran the program, what kind of laptop does he have? When trying to compile J unit, macbooks and windows laptop need to have different code to compile j unit. For Example, assuming your friend has a macbook, in line 32 ``` .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar ``` should be able to run just fine, however Laptops running window should run ```.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar``` instead. The same goes for line 33, macbooks should be able to run ``` .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar```, but for windows it should be replaced with ```".;lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar"```. The differce being the colon and the semi colon being switched. For more information about runnning j unit please refer back to lab week 3 [link]([https://ucsd-cse15l-s23.github.io/week/week3/#:~:text=you%20run%20them%3A-,MAC%20USERS,-%3A]). 
 
 # Student Response:
 You were right! My partner does have a macbook. After changning line 32 and 33 my program ran as expected
@@ -35,5 +35,5 @@ command line error was ``` bash grade.sh https://github.com/ucsd-cse15l-f22/list
 with these new fixes ``` bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected ``` is now able to run correctly
 
 # Reflection 
-I learned a lot in this class and can now use the terminal with more confidence. In the second half of this class I learned about VIM which i didnt know before which has been extremly helpful to look into files by just using the terminal. This class also got me familar with new terminology such as a "symptom" and a "bug" which will also be helpful for future projects. The labs in this class were really insightful and interactive giving me the chance to put my new skills into work.  
+I've learned so much in this class, and now I feel much more confident using the terminal. In the second half of the course, we delved into this awesome tool called VIM, which I hadn't come across before. Let me tell you, it has been a game-changer when it comes to navigating files using only the terminal. Plus, we also got introduced to some cool tech terms like "symptom" and "bug," which I know will come in handy for future projects. The labs in this class were honestly eye-opening and interactive, giving me the chance to really put my newfound skills to work. I'm grateful for the opportunity to learn and grow through this course.
 
